@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import {
   Mail,
   Phone,
@@ -11,81 +11,76 @@ import {
   Twitter,
   Send,
   CheckCircle,
-} from 'lucide-react'
-import Header from '@/components/header'
+  Instagram,
+} from "lucide-react";
+import Header from "@/components/header";
 
 const DotPattern = () => (
   <div className="absolute inset-0 -z-10 h-full w-full bg-[#F5F5F2] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:20px_20px] [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_70%,transparent_100%)]" />
-)
+);
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
-  const [submitted, setSubmitted] = useState(false)
-  const [isLoading, setIsLoading] = useState(false)
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
+    e.preventDefault();
+    setIsLoading(true);
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    setSubmitted(true)
-    setFormData({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setSubmitted(false), 5000)
-    setIsLoading(false)
-  }
+    setSubmitted(true);
+    setFormData({ name: "", email: "", subject: "", message: "" });
+    setTimeout(() => setSubmitted(false), 5000);
+    setIsLoading(false);
+  };
 
   const contactMethods = [
     {
       icon: Mail,
-      label: 'Email',
-      value: 'hello@alexchen.dev',
-      href: 'mailto:hello@alexchen.dev',
+      label: "Email",
+      value: "mail@sumit.info.np",
+      href: "mailto:mail@sumit.sumit.info.np",
     },
     {
       icon: Phone,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      label: "Phone",
+      value: "9842134149",
+      href: "tel:9842134149",
     },
-    {
-      icon: MapPin,
-      label: 'Location',
-      value: 'San Francisco, CA',
-      href: 'https://maps.google.com',
-    },
-  ]
+  ];
 
   const socialLinks = [
     {
-      label: 'GitHub',
+      label: "GitHub",
       icon: Github,
-      href: 'https://github.com',
+      href: "https://github.com/ozsumit",
     },
     {
-      label: 'LinkedIn',
+      label: "LinkedIn",
       icon: Linkedin,
-      href: 'https://linkedin.com',
+      href: "https://linkedin.com/sumitpokhrel",
     },
     {
-      label: 'Twitter',
-      icon: Twitter,
-      href: 'https://twitter.com',
+      label: "Instagram",
+      icon: Instagram,
+      href: "https://instagram.com/sumitp._",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen bg-[#F5F5F2] text-[#111] font-sans">
@@ -105,14 +100,14 @@ export default function ContactPage() {
                 Get In Touch
               </span>
               <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-balance">
-                Let's Create Something{' '}
+                Let's Create Something{" "}
                 <span className="text-[#FF5733]">Amazing</span>
               </h1>
             </div>
             <p className="text-lg md:text-xl text-neutral-600 max-w-3xl leading-relaxed">
-              Have a project in mind? I'd love to hear about it. Whether you need
-              a full design system overhaul, a stunning website, or a complex web
-              application, let's discuss how we can work together.
+              Have a project in mind? I'd love to hear about it. Whether you
+              need a full design system overhaul, a stunning website, or a
+              complex web application, let's discuss how we can work together.
             </p>
           </div>
         </motion.div>
@@ -129,7 +124,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold mb-8">Contact Info</h2>
               <div className="space-y-5">
                 {contactMethods.map((method) => {
-                  const Icon = method.icon
+                  const Icon = method.icon;
                   return (
                     <motion.a
                       key={method.label}
@@ -149,7 +144,7 @@ export default function ContactPage() {
                         </p>
                       </div>
                     </motion.a>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -161,7 +156,7 @@ export default function ContactPage() {
               </h3>
               <div className="flex gap-3">
                 {socialLinks.map((social) => {
-                  const Icon = social.icon
+                  const Icon = social.icon;
                   return (
                     <motion.a
                       key={social.label}
@@ -175,7 +170,7 @@ export default function ContactPage() {
                     >
                       <Icon size={20} />
                     </motion.a>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -340,5 +335,5 @@ export default function ContactPage() {
         </div>
       </main>
     </div>
-  )
+  );
 }
