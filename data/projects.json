@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform Redesign",
+    "description": "Complete redesign of checkout experience resulting in 40% increase in conversions and improved user retention across all devices.",
+    "category": "Web Design",
+    "year": "2024",
+    "tags": ["UI Design", "Frontend", "E-Commerce"],
+    "theme": "bg-white border border-black/5",
+    "client": "TechRetail Co",
+    "role": "Lead Designer",
+    "timeline": "4 months",
+    "team": "3 designers, 2 developers",
+    "results": [
+      { "label": "Conversion Increase", "value": "+40%" },
+      { "label": "Load Time", "value": "2.1s" },
+      { "label": "Users Tested", "value": "500+" },
+      { "label": "Mobile Traffic", "value": "78%" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Design System Overhaul",
+    "description": "Comprehensive redesign of design system components, documentation, and token architecture for enterprise-scale adoption.",
+    "category": "Design Systems",
+    "year": "2024",
+    "tags": ["Design System", "Documentation", "React"],
+    "theme": "bg-white border border-black/5",
+    "client": "DesignFirst Labs",
+    "role": "System Architect",
+    "timeline": "6 months",
+    "team": "2 designers, 3 engineers",
+    "results": [
+      { "label": "Components", "value": "120+" },
+      { "label": "Time Saved", "value": "45%" },
+      { "label": "Teams Using", "value": "8" },
+      { "label": "Documentation", "value": "100%" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mobile App Interface",
+    "description": "Intuitive mobile app design for a financial services company with focus on accessibility and security features.",
+    "category": "Mobile Design",
+    "year": "2023",
+    "tags": ["Mobile Design", "iOS", "Finance"],
+    "theme": "bg-white border border-black/5",
+    "client": "FinanceHub",
+    "role": "Product Designer",
+    "timeline": "3 months",
+    "team": "2 designers, 4 developers",
+    "results": [
+      { "label": "App Rating", "value": "4.8★" },
+      { "label": "DAU Growth", "value": "+156%" },
+      { "label": "Support Tickets", "value": "-62%" },
+      { "label": "User Sessions", "value": "2.3M" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "SaaS Analytics Dashboard",
+    "description": "Analytics dashboard for data visualization and insights with real-time updates and advanced filtering capabilities.",
+    "category": "Web Design",
+    "year": "2023",
+    "tags": ["Dashboard", "Analytics", "Data Viz"],
+    "theme": "bg-white border border-black/5",
+    "client": "DataViz Pro",
+    "role": "Lead Designer",
+    "timeline": "5 months",
+    "team": "2 designers, 5 engineers",
+    "results": [
+      { "label": "Processing Speed", "value": "0.8s" },
+      { "label": "Data Points", "value": "10M+" },
+      { "label": "Enterprise Users", "value": "45+" },
+      { "label": "Uptime", "value": "99.98%" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Brand Identity System",
+    "description": "Comprehensive brand identity and visual language system including logo, typography, color palette, and application guidelines.",
+    "category": "Branding",
+    "year": "2023",
+    "tags": ["Branding", "Visual Identity", "Guidelines"],
+    "theme": "bg-white border border-black/5",
+    "client": "StartupVenture",
+    "role": "Brand Designer",
+    "timeline": "2 months",
+    "team": "1 designer",
+    "results": [
+      { "label": "Brand Assets", "value": "200+" },
+      { "label": "Guidelines Pages", "value": "50" },
+      { "label": "Brand Recognition", "value": "+89%" },
+      { "label": "Social Growth", "value": "+345%" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Accessibility Audit & Improvements",
+    "description": "Full accessibility audit and implementation of WCAG 2.1 AA standards across multiple products and platforms.",
+    "category": "Development",
+    "year": "2023",
+    "tags": ["Accessibility", "WCAG", "Audit"],
+    "theme": "bg-white border border-black/5",
+    "client": "AccessFirst",
+    "role": "Accessibility Lead",
+    "timeline": "3 months",
+    "team": "1 developer, 1 QA specialist",
+    "results": [
+      { "label": "WCAG Score", "value": "98" },
+      { "label": "Issues Fixed", "value": "234" },
+      { "label": "Performance", "value": "99" },
+      { "label": "Mobile A11y", "value": "100" }
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "1",
+    "title": "Crescent Moon",
+    "client": "Personal Project",
+    "year": "2024",
+    "role": "Lead Developer",
+    "category": "Entertainment",
+    "description": "A beautifully crafted, free, and open-source movie streaming platform focused on simplicity, speed, and an immersive viewing experience.",
+    "overview": "Crescent Moon was born out of a desire to create a movie discovery and viewing experience that isn't cluttered with ads or slow-loading scripts. The goal was to build a 'Netflix-style' interface that is completely open-source and respects user privacy while providing high-speed access to a vast library of content.",
+    "challenge": "Building a streaming platform that delivers fast video playback, multiple source handling, and smooth performance across devices—while keeping the design clean and lightweight—was a core challenge. Managing API inconsistencies between various video providers added additional complexity.",
+    "solution": "I designed a modular architecture with provider fallbacks, ensuring each movie loads seamlessly regardless of the selected source. The platform uses optimized caching, responsive UI components, and custom player logic to maintain high performance and a premium user experience.",
+    "timeline": "12 Weeks",
+    "team": "Lead Developer & UI Designer",
+    "image": "/cmoon.png",
+    "theme": "bg-white border border-black/5",
+    "tags": ["Next.js", "TypeScript", "Tailwind", "Video Players"],
+    "results": [
+      { "label": "Playback Speed", "value": "< 1.5s" },
+      { "label": "User Interface", "value": "A+" },
+      { "label": "Accessibility", "value": "95%" }
+    ],
+    "links": [
+      {
+        "label": "View Live Site",
+        "url": "https://cmoon.sumit.info.np",
+        "type": "live"
+      },
+      { "label": "Github Repository", "url": "#", "type": "github" }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Yeti Int'l College",
+    "client": "Yeti Int'l College",
+    "year": "2022",
+    "role": "Lead Developer",
+    "category": "Education",
+    "description": "A streamlined academic website and management system designed to modernize the college’s digital presence and internal workflows.",
+    "overview": "The Yeti Int'l College project involved a full digital transformation. Beyond a simple website, the institution needed a way to communicate effectively with students and manage academic resources in real-time. I focused on building a scalable architecture that could grow with the college's expanding curriculum.",
+    "challenge": "The college relied on outdated pages and manual processes that made content updates slow and the user experience inconsistent. Managing announcements, programs, and student information required too much manual effort.",
+    "solution": "I redesigned the website architecture with a clean, modular system that allows staff to update programs, announcements, and pages effortlessly. The platform uses structured components, automated content pipelines, and a responsive UI tailored for both students and administrators.",
+    "timeline": "5 Months",
+    "team": "Full Stack Dev, Content Strategist",
+    "image": "/yeti.png",
+    "theme": "bg-white border border-black/5",
+    "tags": ["Next.js", "TypeScript", "Content Automation"],
+    "results": [
+      { "label": "Page Load", "value": "0.8s" },
+      { "label": "Mobile Users", "value": "+65%" },
+      { "label": "Manual Work", "value": "-80%" }
+    ],
+    "links": [
+      {
+        "label": "Visit Portal",
+        "url": "https://yeticollege.edu.np",
+        "type": "live"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "OmegaChat",
+    "client": "Personal Project",
+    "year": "2024",
+    "role": "Full Stack Developer",
+    "category": "Communication",
+    "description": "A peer-to-peer messaging and file-transfer platform designed to work instantly on local networks without servers.",
+    "overview": "OmegaChat is a technical exploration into WebRTC and P2P communication. It allows users on the same network to share massive files and messages without the data ever touching a central server, ensuring absolute privacy and extreme speeds restricted only by the local hardware.",
+    "challenge": "Most chat platforms rely on heavy backend infrastructure, making local communication slow and dependent on external servers. Enabling real-time messaging and large file transfers directly between browsers—while preserving message history—required a highly efficient P2P setup.",
+    "solution": "I engineered a lightweight WebRTC/PeerJS architecture that establishes direct connections between clients. Conversations persist in LocalStorage and IndexedDB, allowing users to access chats even when peers are offline. Smart connection reuse and fallback logic ensure a smooth experience without needing a backend.",
+    "timeline": "10 Weeks",
+    "team": "Solo Developer",
+    "image": "/chat.png",
+    "theme": "bg-white border border-black/5",
+
+    "tags": ["PeerJS", "WebRTC", "Next.js", "IndexedDB"],
+    "results": [
+      { "label": "Latency", "value": "0ms" },
+      { "label": "Privacy", "value": "100%" },
+      { "label": "File Cap", "value": "None" }
+    ],
+    "links": [
+      {
+        "label": "Try OmegaChat",
+        "url": "https://chat.sumit.info.np",
+        "type": "live"
+      },
+      { "label": "Technical Docs", "url": "#", "type": "external" }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Library System",
+    "client": "Institution Project",
+    "year": "2024",
+    "role": "Full Stack Developer",
+    "category": "Education",
+    "description": "A modern library management platform designed to simplify book tracking, borrowing workflows, and digital record handling.",
+    "overview": "This Library Management System (LMS) replaces legacy paper trails with a robust digital ecosystem. It manages thousands of titles and student records, providing librarians with a powerful dashboard to monitor stock, track due dates, and generate monthly reports automatically.",
+    "challenge": "The existing system relied heavily on manual record-keeping, leading to lost data and difficulty managing student activity. Staff had no efficient way to track borrowed books or maintain updated inventories.",
+    "solution": "I built a database-driven platform with automated book cataloging, user authentication, and borrowing logs. The interface is optimized for quick scanning, instant search, and seamless management. Admins can add books, manage students, and generate reports with minimal effort.",
+    "timeline": "3 Months",
+    "team": "Lead Developer",
+    "image": "/lib.png",
+    "theme": "bg-white border border-black/5",
+    "tags": ["Next.js", "Node.js", "MongoDB", "REST API"],
+    "results": [
+      { "label": "Record Accuracy", "value": "100%" },
+      { "label": "Search Speed", "value": "< 100ms" },
+      { "label": "Daily Tasks", "value": "2x Faster" }
+    ],
+    "links": [
+      {
+        "label": "View Demo",
+        "url": "https://lib.sumit.info.np",
+        "type": "live"
+      }
+    ]
+  }
+]
