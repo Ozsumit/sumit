@@ -10,10 +10,12 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex Chen - Designer & Developer",
-  description:
-    "Digital designer and developer specializing in modern interfaces, design systems, and user-centered experiences with Swiss-inspired aesthetics.",
-  generator: "v0.app",
+  title: "Sumit Pokhrel",
+  // description:x
+
+  // "Digital designer and developer specializing in modern interfaces, design systems, and user-centered experiences with Swiss-inspired aesthetics.",
+  // generator: "v0.app",
+
   icons: {
     icon: [
       {
