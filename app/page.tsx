@@ -26,6 +26,7 @@ import ExperienceSection from "@/components/experience";
 import About from "@/components/about";
 import ContactCTA from "@/components/cta";
 import Services from "@/components/services";
+import ProjectSection from "@/app/projects/page";
 
 // --- TYPES ---
 interface Project {
@@ -448,6 +449,9 @@ export default function Home() {
         </div>
 
         {/* OTHER SECTIONS */}
+
+        <ProjectSection />
+
         <ExperienceSection />
         <Services />
         <ContactCTA />
