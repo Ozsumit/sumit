@@ -33,8 +33,8 @@ const services = [
 
 export default function Capabilities() {
   return (
-    <section className="py-24 px-4 md:px-8  mx-auto">
-      {/* Header */}
+    <section id="services" className="py-24 px-4 md:px-8  mx-auto ">
+      {/* He ader */}
       <div className=" pl-16 mb-16">
         <span className="text-[10px] font-bold tracking-[0.2em] text-[#FF3B30] uppercase mb-4 block">
           What I do

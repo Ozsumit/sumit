@@ -131,7 +131,7 @@ const Footer = () => {
                   <li>
                     <button
                       onClick={() => {
-                        navigate("/");
+                        navigate("/#services");
                         scrollToSection(SectionId.SERVICES);
                       }}
                       className="text-xl font-bold text-m3-surface hover:text-swiss-red hover:translate-x-2 transition-all duration-300"
@@ -139,14 +139,14 @@ const Footer = () => {
                       Services
                     </button>
                   </li>
-                  <li>
+                  {/* <li>
                     <button
                       onClick={() => navigate("/gallery")}
                       className="text-xl font-bold text-m3-surface hover:text-swiss-red hover:translate-x-2 transition-all duration-300"
                     >
                       Gallery
                     </button>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
