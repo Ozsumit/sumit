@@ -214,7 +214,7 @@ export default function HeroProjects() {
               <motion.div
                 key={activeProject.id}
                 custom={direction}
-                variants={imageVariants}
+                // variants={imageVariants}
                 initial="initial"
                 animate="animate"
                 exit="exit"
