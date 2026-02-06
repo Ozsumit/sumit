@@ -205,7 +205,7 @@ const SwissMouth = () => {
 };
 
 const RadarWidget = () => (
-  <div className="w-full h-full bg-[#D4D4D4] rounded-[2rem] relative overflow-hidden flex flex-col justify-between p-6 group">
+  <div className="w-full h-full bg-[#ffffff] rounded-[2rem]  border border-black/5 relative overflow-hidden flex flex-col justify-between p-6 group">
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-20 group-hover:opacity-30 transition-opacity">
       <div className="absolute inset-0 border border-black/20 rounded-full animate-[ping_3s_linear_infinite]" />
       <div className="absolute inset-0 border border-black/20 rounded-full animate-[ping_3s_linear_infinite_1s]" />
@@ -280,7 +280,7 @@ const InteractiveLogos = () => {
   return (
     <div
       ref={containerRef}
-      className="w-full h-full bg-[#E5E5E5] rounded-[2rem] p-6 flex items-center justify-around overflow-hidden relative cursor-pointer group"
+      className="w-full h-full bg-[#fff] rounded-[2rem] p-6 flex items-center border border-black/5 justify-around overflow-hidden relative cursor-pointer group"
     >
       {logos.map((logo, index) => {
         const factor = index === 0 ? 1 : -1;
