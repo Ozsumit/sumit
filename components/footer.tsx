@@ -105,6 +105,12 @@ const Footer = () => {
               >
                 GitHub
               </a>
+              <a
+                href="https://www.linkedin.com/in/sumit-pokhrel-/"
+                className="text-3xl md:text-6xl font-black tracking-tighter text-m3-surface-variant hover:text-white hover:translate-x-4 transition-all duration-300"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
 
@@ -120,7 +126,7 @@ const Footer = () => {
                   <li>
                     <button
                       onClick={() => {
-                        navigate("/");
+                        navigate("/projects");
                         scrollToSection(SectionId.WORK);
                       }}
                       className="text-xl font-bold text-m3-surface hover:text-swiss-red hover:translate-x-2 transition-all duration-300"
@@ -131,12 +137,12 @@ const Footer = () => {
                   <li>
                     <button
                       onClick={() => {
-                        navigate("/#services");
+                        navigate("/contact");
                         scrollToSection(SectionId.SERVICES);
                       }}
                       className="text-xl font-bold text-m3-surface hover:text-swiss-red hover:translate-x-2 transition-all duration-300"
                     >
-                      Services
+                      Contact
                     </button>
                   </li>
                   {/* <li>
@@ -166,7 +172,7 @@ const Footer = () => {
                     </a>
                   </li>
 
-                  {showAdmin && (
+                  {/* {showAdmin && (
                     <li className="animate-fade-in">
                       <button
                         onClick={() => navigate("/dashboard")}
@@ -175,7 +181,7 @@ const Footer = () => {
                         Admin
                       </button>
                     </li>
-                  )}
+                  )} */}
                 </ul>
               </div>
             </div>
